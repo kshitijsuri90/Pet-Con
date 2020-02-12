@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/newContract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:text="Source"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/source"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_top_gray"
+            android:hint="Start/Source"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:text="Destination"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/destination"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/edittext_top_gray"
+            android:hint="Destination"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="4dp"
+            android:text="Mode of travel"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="8dp"
+            android:text="Please select your mode of transportation. Remember your pet's health depends on it!" />
+
+        <RadioGroup
+            android:id="@+id/groupradio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <RadioButton
+                android:id="@+id/radio_walk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Walk/Bicycle" />
+
+            <RadioButton
+                android:id="@+id/radio_auto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Autorickshaws" />
+
+            <RadioButton
+                android:id="@+id/radio_bus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bus" />
+
+            <RadioButton
+                android:id="@+id/radio_train"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Train" />
+
+            <RadioButton
+                android:id="@+id/radio_car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Car" />
+
+            <RadioButton
+                android:id="@+id/radio_bike"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Bike" />
+
+            <RadioButton
+                android:id="@+id/radio_airplane"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Airplane" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newContract"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="8dp"
+        android:text="Submit"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

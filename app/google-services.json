@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "386685648438",
+    "firebase_url": "https://pet-tree-5bb27.firebaseio.com",
+    "project_id": "pet-tree-5bb27",
+    "storage_bucket": "pet-tree-5bb27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386685648438:android:274ad51bdb4925a72aa297",
+        "android_client_info": {
+          "package_name": "com.example.kshitij.patentlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386685648438-6sr2v5nbdrh39lte5rom8cs1mkf2m3ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kshitij.patentlite",
+            "certificate_hash": "a419338d50a72ed1a6901889600fbb4b79be9a1f"
+          }
+        },
+        {
+          "client_id": "386685648438-bfb6141p0su5osoh3jn8p7al1qeujhs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmZBGghvV3QVUOWXaNTKCdiSwBgQqlEVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386685648438-bfb6141p0su5osoh3jn8p7al1qeujhs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
